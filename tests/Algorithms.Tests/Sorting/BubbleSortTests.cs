@@ -7,17 +7,12 @@ namespace Algorithms.Tests.Sorting
     public class BubbleSortTests
     {
         [Fact]
-        public void Bubble_Sort_Sorting_Test()
+        public void Bubble_Sort_Sorting_Correctly_Test()
         {
             //Arrange
             List<int> numbersToSort = new List<int>
             {
                 5,1,7,3,8,34,2
-            };
-
-            List<int> numbersSorted = new List<int>
-            {
-                1,2,3,5,7,8,34
             };
 
             BubbleSort bubble = new BubbleSort(numbersToSort);

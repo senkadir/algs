@@ -7,7 +7,6 @@ namespace Algorithms.Console
     {
         static void Main(string[] args)
         {
-
             System.Console.Read();
         }
     }
