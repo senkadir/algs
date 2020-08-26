@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithms.Sorting;
+using System.Collections.Generic;
 
 namespace Algorithms.Console
 {
@@ -6,7 +7,8 @@ namespace Algorithms.Console
     {
         static void Main(string[] args)
         {
-            return;
+
+            System.Console.Read();
         }
     }
 }
